@@ -1,0 +1,45 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="sap-netweaver-power" category="compute" audience="compute" href="docs/sap-netweaver-power?topic=sap-netweaver-power-getting-started" product-page="https://www.ibm.com/cloud/power-virtual-server" path="sap-netweaver-power"}
+SAP NetWeaver on IBM Power Systems Virtual Servers
+
+    {: .navgroup id="learn"}
+    sap-power-index.md
+    sap-power-about-power-systems-virtual-server-nw.md
+    sap-power-general-iaas-concepts.md
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    {: .topicgroup}
+    Planning
+        sap-power-planning-your-system-landscape.md
+        sap-power-considerations.md
+        sap-power-get-credentials.md
+        sap-power-review-doc.md
+        sap-power-determine-apps.md
+        sap-power-determine-db-mgmt-system.md
+        sap-power-byol.md
+        sap-power-size-server.md
+        sap-power-configuring-ha.md
+        sap-power-determine-configuration.md
+
+    {: .topicgroup}
+    Provisioning
+        sap-power-setting-up-virtual-infrastructure.md
+
+    {: .topicgroup}
+    Managing
+        sap-power-manage-environment.md
+        sap-power-config-workload.md
+        sap-power-config-system-access.md
+        sap-power-order-storage.md
+        sap-power-installing-SAP-landscape.md
+        sap-power-create-license-key.md
+        sap-power-monitoring.md
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    sap-power-faqs.md
+    sap-power-support-flow.md
+    {: .navgroup-end}
