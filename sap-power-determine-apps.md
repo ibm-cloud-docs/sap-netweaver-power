@@ -25,7 +25,7 @@ subcollection: sap-netweaver-power
 Your business and functional requirements determine the SAP solutions to run on top of the SAP NetWeaver stack. Your requirements have an influence on how you size your server. There is a wide selection of SAP NetWeaver-based applications from which to choose, including SAP ERP Central Component (ECC), SAP S/4HANA Business Suite, and customer engagement and commerce solutions. For more information about the different solutions, see the [SAP Product Availability Matrix (PAM)](https://support.sap.com/en/release-upgrade-maintenance.html#section_1969201630){: external}. Search for Product Availability Matrix. It requires an [SAP S-user ID](/docs/sap-netweaver?topic=sap-netweaver-getting-started).
 {:shortdesc}
 
-Items to consider when you make your determination include:
+Consider the following questions when you make your determination:
   * How do you intend to use the applications? Is the intended use for development and testing, or production?
   * Do you use an {{site.data.keyword.cloud_notm}} Virtual Private Network service-SSL?
 

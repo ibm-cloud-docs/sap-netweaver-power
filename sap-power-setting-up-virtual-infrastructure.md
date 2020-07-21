@@ -22,7 +22,7 @@ subcollection: sap-netweaver-power
 # Setting up your Power Systems Virtual Server instances
 {: #set-up-power-infrastructure}
 
-The guidance for setting up your SAP NetWeaver certified {{site.data.keyword.IBM}} {{site.data.keyword.powerSysShort}} colocated and connected with {{site.data.keyword.cloud}}, including data volume and operating system (OS), is in the following section.
+The guidance for setting up your SAP NetWeaver certified {{site.data.keyword.IBM}} {{site.data.keyword.powerSysShort}}s, including data volume and operating system (OS), is in the following section.
 {:shortdesc}
 
 ## Before you begin
@@ -53,7 +53,7 @@ Do the following steps to configure your {{site.data.keyword.powerSys_notm}} ser
 
 1. Add an SSH key to securely connect to your {{site.data.keyword.powerSys_notm}}. For more information, see [Adding an SSH key](/docs/ssh-keys?topic=ssh-keys-adding-an-ssh-key).
 1.	Configure the private network subnets that will be used for the SAP workload. For more information, see [Configuring and adding a private network subnet](/docs/power-iaas?topic=power-iaas-configuring-subnet).
-1. Open a support ticket to connect your private networks to {{site.data.keyword.dl_full}} on classic connection. Provide information about the private network (network name, CIDR, colocation name) in the ticket.
+1. Open a support ticket to connect your private networks to {{site.data.keyword.dl_full}} on classic connection. Provide information about the private network (network name, CIDR) in the ticket.
 1.	If required, create more management systems (for example, OS update server, time server, jump server).
 1.	If required, configure {{site.data.keyword.dl_full}} to {{site.data.keyword.cloud}} classic or to on-premises networks.
 

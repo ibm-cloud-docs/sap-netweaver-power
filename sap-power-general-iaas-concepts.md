@@ -26,23 +26,23 @@ IBM and SAP have been teaming, partnering, and collaborating in areas that inclu
 
 It's because of this relationship, and other {{site.data.keyword.cloud_notm}} capabilities that {{site.data.keyword.IBM_notm}} was selected as one of SAP's premier strategic providers of cloud infrastructure services for its business-critical applications. Support for SAP NetWeaver's suite of solutions is available through the highly scalable, open, and security-rich {{site.data.keyword.cloud_notm}}. With this partnership, SAP NetWeaver-based solutions can expand to major markets made possible by more than 60 {{site.data.keyword.IBM_notm}} worldwide.
 
-## SAP NetWeaver on IBM Power Systems Virtual Server colocated and connected with the IBM Cloud offering model
+## SAP NetWeaver on IBM Power Systems Virtual Servers
 {: #power-offering-model}
 
-The offering is ideal for practically all SAP NetWeaver use case scenarios on {{site.data.keyword.IBM}} {{site.data.keyword.powerSysShort}} colocated and connected with {{site.data.keyword.cloud}} over the {{site.data.keyword.cloud_notm}} network. You can use your servers for mission critical workloads, as your test environment, or your business continuity disaster recovery (BCDR) site. All SAP NetWeaver Application Server ABAP-based products and SAP NetWeaver Application Server Java-based products are supported on {{site.data.keyword.powerSysShort}}. For SAP NetWeaver-based SAP products, see [SAP Note 2855850](https://launchpad.support.sap.com/#/notes/2855850){: external}. For all other software components or third-party products, contact [SAP Support](https://support.sap.com/en/index.html){: external}.
+The offering is ideal for practically all SAP NetWeaver use case scenarios on {{site.data.keyword.IBM}} {{site.data.keyword.powerSysShort}}s. You can use your servers for mission critical workloads, as your test environment, or your business continuity disaster recovery (BCDR) site. All SAP NetWeaver Application Server ABAP-based products and SAP NetWeaver Application Server Java-based products are supported on {{site.data.keyword.powerSysShort}}. For SAP NetWeaver-based SAP products, see [SAP Note 2855850](https://launchpad.support.sap.com/#/notes/2855850){: external}. For all other software components or third-party products, contact [SAP Support](https://support.sap.com/en/index.html){: external}.
 
 
 ## Storage
 {: #storage}
 
-Storage is provided with your {{site.data.keyword.powerSys_notm}} and uses the {{site.data.keyword.cloud_notm}} private network virtual LAN (VLAN) to help provide enterprise-grade security while not obstructing administrator access. It is ideal for storage-intensive applications with high I/O needs, such as an OS, and database and application software. Contact [{{site.data.keyword.cloud_notm}} Support](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support) for extension options if the attached storage is insufficient for your workload.
+Storage is provided with your {{site.data.keyword.powerSys_notm}}s and uses the {{site.data.keyword.cloud_notm}} private network virtual LAN (VLAN) to help provide enterprise-grade security while not obstructing administrator access. It is ideal for storage-intensive applications with high I/O needs, such as an OS, and database and application software. Contact [{{site.data.keyword.cloud_notm}} Support](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support) for extension options if the attached storage is insufficient for your workload.
 
-{{site.data.keyword.powerSys_notm}} uses [{{site.data.keyword.IBM_notm}} Storwize](https://www.ibm.com/it-infrastructure/storage/storwize){: external}. Specifically, Storwize  V7000F(2076-AF6) Dual Controller and Storwize V7000 (2076-624) Dual Controller.
+{{site.data.keyword.powerSys_notm}}s use [{{site.data.keyword.IBM_notm}} Storwize](https://www.ibm.com/it-infrastructure/storage/storwize){: external}, specifically, Storwize  V7000F(2076-AF6) Dual Controller and Storwize V7000 (2076-624) Dual Controller.
 
 ## Deployment and management
 {: #deployment-and-management}
 
-{{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} colocated and connected with {{site.data.keyword.cloud_notm}} are deployed through the {{site.data.keyword.cloud_notm}} console or API after you create your {{site.data.keyword.cloud_notm}} customer account. The servers can be managed through the console, API, or command-line interface (CLI). More information can be found under [Managing {{site.data.keyword.powerSys_notm}} (IAM)](/docs/power-iaas?topic=power-iaas-managing-resources-and-users).
+{{site.data.keyword.powerSys_notm}}s are deployed through the {{site.data.keyword.cloud_notm}} console or API after you create your {{site.data.keyword.cloud_notm}} customer account. The servers can be managed through the console, API, or command-line interface (CLI). For more information, see [Managing {{site.data.keyword.powerSys_notm}}s (IAM)](/docs/power-iaas?topic=power-iaas-managing-resources-and-users).
 
 ## Support
 {: #concept-support}

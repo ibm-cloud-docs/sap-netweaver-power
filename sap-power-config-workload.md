@@ -31,7 +31,7 @@ After you deploy {{site.data.keyword.IBM}} {{site.data.keyword.powerSysShort}}, 
 
 1. Configure root user access. You can log in to the system as a root user by using a configured SSH key. Logging in as a root user with a password through SSH is deactivated. You can log in as a root user by using the default password `root` in a virtual console window. After you log in, change the default password for the root user.
 1. Start and enable the multipath deamon, for example, by running `systemctl start multipathd` and `systemctl enable multipathd`.
-1. Set jumbo frames for network adapters. _Jumbo frames_ is another way of saying network maximum transmission units (MTU) of 9000-byte payload frames. All the network components in {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}} colocations support jumbo frames. In cases where certain network components don't support jumbo frames (for example, in communication to the external world), setting MTU=9000 can cause network issues. Therefore, set MTU=9000 only on adapters that are used internally.
+1. Set jumbo frames for network adapters. _Jumbo frames_ is another way of saying network maximum transmission units (MTU) of 9000-byte payload frames. All the network components in {{site.data.keyword.IBM_notm}} {{site.data.keyword.powerSys_notm}}s support jumbo frames. In cases where certain network components don't support jumbo frames (for example, in communication to the external world), setting MTU=9000 can cause network issues. Therefore, set MTU=9000 only on adapters that are used internally.
 
   You must set jumbo frames on private networks that are used for communication between multiple instances in SAP three-tier systems.
 

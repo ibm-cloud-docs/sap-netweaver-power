@@ -57,7 +57,7 @@ See [SAP Note 2855850](https://launchpad.support.sap.com/#/notes/2855850){: exte
 
 See [SAP Note 2855850](https://launchpad.support.sap.com/#/notes/2855850){: external} for SAP HANA support on {{site.data.keyword.powerSys_notm}}s. For the configuration, see {{site.data.keyword.cloud}} online documentation: 
 
-[Getting started with SAP HANA on Power Systems Virtual Servers colocated and connected with IBM Cloud](/docs/sap-hana-power?topic=sap-hana-power-getting-started){: external}
+[Getting started with SAP HANA on Power Systems Virtual Servers](/docs/sap-hana-power?topic=sap-hana-power-getting-started){: external}
 
 ## Next Steps
 {: #determine-db-next-steps}

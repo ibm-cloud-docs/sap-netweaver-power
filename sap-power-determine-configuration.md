@@ -33,7 +33,7 @@ The options influence your server choice. You might want to distribute your work
 ## Network configuration
 {: #network-config}
 
-Ensure that you have a working network Direct Link connection between the {{site.data.keyword.IBM}} {{site.data.keyword.powerSysShort}} colocation and {{site.data.keyword.cloud}} or your on-premises networks. This connection is required for management and for access to your SAP applications. For more information, see [Ordering Direct Link Connect on classic](/docs/power-iaas?topic=power-iaas-ordering-direct-link-connect).
+Ensure that you have a working network Direct Link connection between the {{site.data.keyword.IBM}} {{site.data.keyword.powerSysShort}} data centers and {{site.data.keyword.cloud}} or your on-premises networks. This connection is required for management and for access to your SAP applications. For more information, see [Ordering Direct Link Connect on classic](/docs/power-iaas?topic=power-iaas-ordering-direct-link-connect).
 
 ## Storage configuration
 {: #storage_config}
@@ -44,7 +44,7 @@ Keep the following points in the mind when you create new storage volumes:
   * After your new volumes are provisioned, you can toggle bootable and sharing switches.
 {: important}
 
-For {{site.data.keyword.powerSys_notm}} for SAP HANA sample storage configurations, see [SAP HANA Determining your configuration](/docs/sap-hana-power?topic=sap-hana-power-determine_configuration). For SAP's storage requirements, especially file system sizes, see [SAP HANA Storage Requirements](https://www.sap.com/documents/2015/03/74cdb554-5a7c-0010-82c7-eda71af511fa.html?infl=9e705342-b66e-49d2-9023-c7aa7ef6f6af){: external}.
+For {{site.data.keyword.powerSys_notm}}s for SAP HANA sample storage configurations, see [SAP HANA Determining your configuration](/docs/sap-hana-power?topic=sap-hana-power-determine_configuration). For SAP's storage requirements, especially file system sizes, see [SAP HANA Storage Requirements](https://www.sap.com/documents/2015/03/74cdb554-5a7c-0010-82c7-eda71af511fa.html?infl=9e705342-b66e-49d2-9023-c7aa7ef6f6af){: external}.
 
 ### Sample storage configuration for Linux
 {: #sample-Linux}

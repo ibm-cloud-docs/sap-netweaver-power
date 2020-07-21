@@ -49,7 +49,7 @@ Depending on your selected network option, you will need one or more of the foll
 #### Private network
 {: #network_connectivity_private}
 
-A private network is required for the connection of your virtual instances with systems outside of the colocation and for communication between multiple instances in an SAP three-tier system. This is an internal network that can be used to connect individual {{site.data.keyword.powerSys_notm}}s with each other.
+A private network is required for the connection of your virtual instances with systems outside of the {{site.data.keyword.IBM_notm}} data centers and for communication between multiple instances in an SAP three-tier system. This is an internal network that can be used to connect individual {{site.data.keyword.powerSys_notm}}s with each other.
 
 #### Public network
 {: #network_connectivity_public}
@@ -65,7 +65,7 @@ Other ports are blocked and can be routed through SSH. For security reasons, usi
 #### IBM Cloud Direct Link
 {: #network_connectivity_direct_link}
 
-{{site.data.keyword.dlc_full_notm}} must be used to connect your {{site.data.keyword.powerSys_notm}} with your {{site.data.keyword.cloud_notm}} resources. {{site.data.keyword.dlc_short}} is also used to connect your on-premises network to the {{site.data.keyword.cloud_notm}} network by using the {{site.data.keyword.cloud_notm}} VRA. {{site.data.keyword.dlc_short}} is a separate service. For more information, see [Ordering Direct Link Connect on classic](/docs/power-iaas?topic=power-iaas-ordering-direct-link-connect).
+{{site.data.keyword.dlc_full_notm}} must be used to connect your {{site.data.keyword.powerSys_notm}}s with your {{site.data.keyword.cloud_notm}} resources. {{site.data.keyword.dlc_short}} is also used to connect your on-premises network to the {{site.data.keyword.cloud_notm}} network by using the {{site.data.keyword.cloud_notm}} VRA. {{site.data.keyword.dlc_short}} is a separate service. For more information, see [Ordering Direct Link Connect on classic](/docs/power-iaas?topic=power-iaas-ordering-direct-link-connect).
 
 ### Network requirements for SAP
 {: #network_requirements_sap}
@@ -133,8 +133,8 @@ Depending on your operating system, SAP workload, and network connectivity, you 
 
   * OS update server. You can use publicly available AIX SUMA or SUSE update repositories, or use your own AIX NIM or SUSE RMT servers.
   * Time server. You can use a publicly available time server or use your own private time server.
-  * Jump host. Depending on customer requirements and network connectivity, the jump host can be part of {{site.data.keyword.powerSys_notm}} colocation or {{site.data.keyword.cloud_notm}} classic environment, or an on-premises network.
-  * Other management systems such as Network File System (NFS), backup, proxy, firewall, and VPN servers can also be part of {{site.data.keyword.powerSys_notm}} colocation or {{site.data.keyword.cloud_notm}} classic environment depending on network connectivity.
+  * Jump host. Depending on customer requirements and network connectivity, the jump host can be a {{site.data.keyword.powerSys_notm}} in the {{site.data.keyword.cloud_notm}} classic environment or in an on-premises network.
+  * Other management systems such as Network File System (NFS), backup, proxy, firewall, and VPN servers can also be a {{site.data.keyword.powerSys_notm}} or in the {{site.data.keyword.cloud_notm}} classic environment, depending on network connectivity.
 
 ## Hybrid setups
 {: #hybrid}

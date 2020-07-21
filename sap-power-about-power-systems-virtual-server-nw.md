@@ -24,7 +24,7 @@ subcollection: sap-netweaver-power
 # What is a Power Systems Virtual Server?
 {: #about-virtual-server}
 
-{{site.data.keyword.IBM}} {{site.data.keyword.powerSysShort}}s are colocated and connected with {{site.data.keyword.cloud}}. {{site.data.keyword.powerSys_notm}}s, also known as logical partitions (LPAR), run on IBM Power Systems hardware with the PowerVM hypervisor.
+{{site.data.keyword.powerSys_notm}}s, also known as logical partitions (LPAR), run on IBM Power Systems hardware with the PowerVM hypervisor.
 {:shortdesc}
 
 {{site.data.keyword.powerSys_notm}}s are a form of infrastructure as a service (IaaS). With the {{site.data.keyword.powerSys_notm}} service, you can quickly create and deploy one or more virtual servers that are running either the AIX or Linux&reg; operating systems. After you provision the virtual server, it is your responsibility to make sure that your operating system is secure.
