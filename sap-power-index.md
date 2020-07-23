@@ -41,8 +41,8 @@ Table 1 contains information that will help you with your implementation.
 | | * [SAP Notes through SAP Support](https://support.sap.com/en/index.html) |
 | Sign up for {{site.data.keyword.cloud}} | [Signing up for {{site.data.keyword.cloud}}](/docs/account/adminpublic.html#signing-up-for-ibm-cloud) |
 | Access the {{site.data.keyword.cloud}} console | [{{site.data.keyword.cloud}} console](https://cloud.ibm.com) is your graphical gateway to all your infrastructure components-compute, networking, and storage. You need an [IBMid and password](/docs/account?topic=account-signup) to access the console. |
-| Invite users to your account and manage their access | IBM Identity and Access Management (IAM) service is used to set up your users and grant them access to based on their roles. See [Getting started with IAM tutorial](/docs/iam?topic=iam-getstarted) and [Best practices for assigning access](/docs/iam?topic=iam-account_setup) set up your users and grant them system access. |
-| Create resource groups | A **resource** is anything that you can create from the catalog that is managed by and contained within a **resource** group. See [Creating and managing resource groups](/docs/resources?topic=resources-rgs) and [Best practices for organizing resources in a resource group](/docs/resources?topic=resources-bp_resourcegroups).
+| Invite users to your account and manage their access | IBM Identity and Access Management (IAM) service is used to set up your users and grant them access to based on their roles. See [Getting started with IAM tutorial](/docs/iam?topic=iam-getstarted) and [Best practices for organizing resources and assigning access](/docs/account?topic=account-account_setup) set up your users and grant them system access. |
+| Create resource groups | A **resource** is anything that you can create from the catalog that is managed by and contained within a **resource** group. For more information, see [Creating and managing resource groups](/docs/resources?topic=resources-rgs).
 {: caption="Table 1. Before you begin steps" caption-side="top"}
 
 ## Terminology
