@@ -44,7 +44,7 @@ While the sizing method might be considered conservative, consider the fact that
 
 After you determine your SAP applications and the SAPS numbers have been calculated through the SAP Quick Sizer, or based on your current landscape, you are ready to choose a server. Currently, E922 and E980 are the supported {{site.data.keyword.powerSys_notm}}s. For more information about the supported servers, see [SAP Note 2855850](https://launchpad.support.sap.com/#/notes/2855850){: external}.
 
-## Mapping CPUs derived from SAPS to CPUs in a {{site.data.keyword.powerSys_notm}} environment
+## Mapping CPUs derived from SAPS to CPUs in a Power Systems Virtual Servers environment
 {: #mapping-cpus}
 
 The SAPS result from the sizing and the choice of the server results in the number of CPUs that are required to support your workload.
@@ -60,7 +60,7 @@ For more information about shared and dedicated processors, see [Assigning the a
 ## Migrating an existing SAP system
 {: #migrating}
 
-If you are planning to migrate an existing SAP system from any source to your {{site.data.keyword.cloud_notm}} environment, you can determine the SAPS numbers from the SAPS numbers of your current environment. Use the information on your current workload (the CPUs and RAM used) and get the SAPS equivalents for your CPU from the [SAP SD benchmark results](https://www.sap.com/about/benchmark.html){: external}.
+If you are planning to migrate an existing SAP system from any source to your {{site.data.keyword.cloud_notm}}s environment, you can determine the SAPS numbers from the SAPS numbers of your current environment. Use the information on your current workload (the CPUs and RAM used) and get the SAPS equivalents for your CPU from the [SAP SD benchmark results](https://www.sap.com/about/benchmark.html){: external}.
 
 ## Next Steps
 {: #size-server-next-steps}
