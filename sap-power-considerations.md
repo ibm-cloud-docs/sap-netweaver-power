@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-07-17"
+lastupdated: "2020-08-03"
 
 keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}, network connectivity, VLANs, hybrid, STMS, SAProuter, SAP Solution Manager, SAP certified, database
 
@@ -31,7 +31,7 @@ SAP NetWeaver on {{site.data.keyword.IBM}} {{site.data.keyword.powerSysShort}} s
 ## Power Systems Virtual Server
 {: #power-systems-virtual-server}
 
-You have two compute options for SAP workloads: Power System E980 and Power System S922. Both can run SAP NetWeaver application servers on AIX or Linux&reg;, or SAP database servers with IBM Db2 or Oracle on AIX. SAP HANA runs E980 on Linux.
+You have two compute options for SAP workloads: Power System E980 and Power System S922. Both can run SAP NetWeaver application servers on AIX or Linux&reg;, or SAP database servers with IBM Db2 or Oracle on AIX. SAP HANA runs on E980 on Linux.
 
 ## Operating systems
 {: #os-considerations}
@@ -133,7 +133,7 @@ Depending on your operating system, SAP workload, and network connectivity, you 
 
   * OS update server. You can use publicly available AIX SUMA or SUSE update repositories, or use your own AIX NIM or SUSE RMT servers.
   * Time server. You can use a publicly available time server or use your own private time server.
-  * Jump host. Depending on customer requirements and network connectivity, the jump host can be a {{site.data.keyword.powerSys_notm}} in the {{site.data.keyword.cloud_notm}} classic environment or in an on-premises network.
+  * Jump host. Depending on your requirements and network connectivity, the jump host can be another {{site.data.keyword.powerSys_notm}}, a server in the {{site.data.keyword.cloud_notm}} classic environment, or a server in an on-premises network.
   * Other management systems such as Network File System (NFS), backup, proxy, firewall, and VPN servers can also be a {{site.data.keyword.powerSys_notm}} or in the {{site.data.keyword.cloud_notm}} classic environment, depending on network connectivity.
 
 ## Hybrid setups
