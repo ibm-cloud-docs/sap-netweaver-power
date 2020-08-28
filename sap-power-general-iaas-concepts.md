@@ -21,15 +21,7 @@ subcollection: sap-netweaver-power
 # SAP NetWeaver on Power Systems Virtual Servers IaaS Overview
 {: #sap-netweaver-on-ibm-cloud-iaas-overview}
 
-IBM and SAP have been teaming, partnering, and collaborating in areas that include hardware, software, cloud, services, and financing for close to 50 years. The first collaboration was in the early 1970s and has continued to grow with hundreds of SAP clients that use {{site.data.keyword.cloud}} as their infrastructure-as-a-service (IaaS) solution. {{site.data.keyword.IBM}} has continued to optimize its cloud infrastructure products to include support for SAP NetWeaver solutions.
-{:shortdesc}
-
-It's because of this relationship, and other {{site.data.keyword.cloud_notm}} capabilities that {{site.data.keyword.IBM_notm}} was selected as one of SAP's premier strategic providers of cloud infrastructure services for its business-critical applications. Support for SAP NetWeaver's suite of solutions is available through the highly scalable, open, and security-rich {{site.data.keyword.cloud_notm}}. With this partnership, SAP NetWeaver-based solutions can expand to major markets made possible by more than 60 {{site.data.keyword.IBM_notm}} worldwide.
-
-## SAP NetWeaver on IBM Power Systems Virtual Servers
-{: #power-offering-model}
-
-The offering is ideal for practically all SAP NetWeaver use case scenarios on {{site.data.keyword.IBM}} {{site.data.keyword.powerSysShort}}s. You can use your servers for mission critical workloads, as your test environment, or your business continuity disaster recovery (BCDR) site. All SAP NetWeaver Application Server ABAP-based products and SAP NetWeaver Application Server Java-based products are supported on {{site.data.keyword.powerSysShort}}. For SAP NetWeaver-based SAP products, see [SAP Note 2855850](https://launchpad.support.sap.com/#/notes/2855850){: external}. For all other software components or third-party products, contact [SAP Support](https://support.sap.com/en/index.html){: external}.
+The {{site.data.keyword.IBM}} {{site.data.keyword.powerSysShort}}s offering is ideal for practically all SAP NetWeaver use case scenarios. You can use your servers for mission critical workloads, as your test environment, or your business continuity disaster recovery (BCDR) site. All SAP NetWeaver Application Server ABAP-based products and SAP NetWeaver Application Server Java-based products are supported on {{site.data.keyword.powerSysShort}}s. For SAP NetWeaver-based SAP products, see [SAP Note 2855850](https://launchpad.support.sap.com/#/notes/2855850){: external}. For all other software components or third-party products, contact [SAP Support](https://support.sap.com/en/index.html){: external}.
 
 
 ## Storage
