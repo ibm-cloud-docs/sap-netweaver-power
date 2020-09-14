@@ -37,6 +37,41 @@ SAP NetWeaver on IBM Power Systems Virtual Servers
         sap-power-installing-SAP-landscape.md
         sap-power-create-license-key.md
         sap-power-monitoring.md
+
+    {: .topicgroup}
+    Deployment considerations
+
+        {: .topicgroup}
+        Network and connectivity
+            sap-power-jump-server.md
+            sap-power-adding-routes.md
+            sap-power-ntp-time-server-configuration.md
+            sap-power-nim-service-handler.md
+            sap-power-ssh-tunneling.md
+
+        {: .topicgroup}
+        Additional storage
+            sap-power-adding-storage.md
+            sap-power-extending-tmp.md
+            sap-power-paging-space.md
+
+        sap-power-aix-toolbox-for-linux-extensions.md
+        
+        {: .topicgroup}
+        Required filesets for database installations
+            sap-power-filesets-for-oracle.md
+            sap-power-filesets-for-db2.md
+            sap-power-filesets-for-maxdb.md
+
+        sap-power-storage-aix-lvm.md
+
+        {: .topicgroup}
+        Installing with Software Provisioning Manager
+            sap-power-installation_overview.md
+            sap-power-installation_client_machine.md
+            sap-power-installation_jump_server.md
+
+        sap-power-information-resources.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}

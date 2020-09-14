@@ -34,7 +34,7 @@ Use the following steps to add a storage volume.
   Specify a unique name for the volume so you can identify it in the list of all volumes.
   {: tip} 
 
-1. Select **Affinity Policy** and identify the boot disk as an **Affinity Volume**. Specifying an Affinity Policy ensures that the new storage will be available in the list to attach to your virtual server instance. By identifying the boot disk as an Affinity Volume, your volumes are on the same backbone storage.
+1. Select **Affinity** for the **Affinity policy** and specify the boot disk as the **Affinity volume**. Specifying an affinity policy ensures that the new storage will be available in the list to attach to your virtual server instance. By identifying the boot disk as the affinity volume, your volumes are on the same backbone storage.
 
    Mixing storage tiers is not supported. If you have a virtual server instance that uses Tier 1, you cannot define Tier 3 disks.
    {: important}
@@ -47,7 +47,11 @@ Use the following steps to add a storage volume.
   
   **AIX:** Run the `cfgmgr` command. Server restart isn't necessary. To get the disk overview, run `lsdev -Cc disk`.
 
-1. Extend your existing file systems or create a new one with OS Logic Volume Manager (LVM).
+1. Extend your existing file systems or create a new one with Logical Volume Manager (LVM). For more information, see the following links:
+    * [Adding storage for the rootvg during AIX server provisioning](/docs/sap-netweaver-power?topic=sap-netweaver-power-adding_storage)
+    * [Extending /tmp](/docs/sap-netweaver-power?topic=sap-netweaver-power-extending_tmp)
+    * [Extending or adding paging space](/docs/sap-netweaver-power?topic=sap-netweaver-power-extending_paging_space)
+    * [Storage and the AIX Logical Volume Manager](/docs/sap-netweaver-power?topic=sap-netweaver-power-storage_aix_lvm)
 
 If you'd like to attach or detach a volume, click **Manage existing volumes** and select the volume. You can also change the boot status of a volume by clicking the **Bootable** toggle.
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-07-17"
+lastupdated: "2020-08-31"
 
 keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}
 
@@ -60,7 +60,7 @@ After you deploy {{site.data.keyword.IBM}} {{site.data.keyword.powerSysShort}}, 
 ## Configuring AIX for SAP NetWeaver
 {: #config-aix}
 
-After successful deployment of an {{site.data.keyword.IBM}} {{site.data.keyword.powerSys_notm}} with AIX, make sure you follow the configuration steps in [SAP Note 323816 - AIX: User limit settings](https://launchpad.support.sap.com/#/notes/323816) and [SAP Note 1972803 - SAP on AIX: Recommendations](https://launchpad.support.sap.com/#/notes/1972803).
+After successful deployment of an {{site.data.keyword.IBM}} {{site.data.keyword.powerSys_notm}} with AIX, follow the configuration steps in [SAP Note 323816 - AIX: User limit settings](https://launchpad.support.sap.com/#/notes/323816) and [SAP Note 1972803 - SAP on AIX: Recommendations](https://launchpad.support.sap.com/#/notes/1972803). Also, make sure that you implement any specific configurations that might be required for the SAP products that you are planning to install. For more information, see the respective installation guides for these products.
 
 ## Next Steps
 {: #config-workload-next-steps}

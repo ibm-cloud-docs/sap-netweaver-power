@@ -65,7 +65,11 @@ Other ports are blocked and can be routed through SSH. For security reasons, usi
 #### IBM Cloud Direct Link
 {: #network_connectivity_direct_link}
 
-{{site.data.keyword.dlc_full_notm}} must be used to connect your {{site.data.keyword.powerSys_notm}}s with your {{site.data.keyword.cloud_notm}} resources. {{site.data.keyword.dlc_short}} is also used to connect your on-premises network to the {{site.data.keyword.cloud_notm}} network by using the {{site.data.keyword.cloud_notm}} VRA. {{site.data.keyword.dlc_short}} is a separate service. For more information, see [Ordering Direct Link Connect on classic](/docs/power-iaas?topic=power-iaas-ordering-direct-link-connect).
+{{site.data.keyword.dlc_full_notm}} must be used to connect your {{site.data.keyword.powerSys_notm}}s with your {{site.data.keyword.cloud_notm}} resources. {{site.data.keyword.dlc_short}} is also used to connect your on-premises network to the {{site.data.keyword.cloud_notm}} network by using the {{site.data.keyword.cloud_notm}} VRA.
+
+After you configure {{site.data.keyword.dlc_short}}, you must configure routing on your virtual server instance. For more information, see [Adding routes on your instance for the jump server](/docs/sap-netweaver-power?topic=sap-netweaver-power-adding_routes).
+
+{{site.data.keyword.dlc_short}} is a separate service. For more information, see [Ordering Direct Link Connect on classic](/docs/power-iaas?topic=power-iaas-ordering-direct-link-connect).
 
 ### Network requirements for SAP
 {: #network_requirements_sap}
@@ -93,7 +97,7 @@ The following network options are available to manage your SAP systems from outs
 
   This virtual server can be a Windows or Linux server. This server can be used, for example:
   * For downloading software and patches. When the software is on the server, you can use SCP or WinSCP or another SSH file transfer protocol (SFTP) application to transfer the software to the SAP virtual server for installation.
-  * As a VNC server for installing SAP with the SWPM.
+  * As a VNC server for installing SAP with the Software Provisioning Manager.
   * For management with SAP Logon/SAP GUI.
   * For forwarding SAP GUI to client endpoints.
   
@@ -131,9 +135,9 @@ The following diagram shows the network connectivity of SAP NetWeaver and SAP HA
 
 Depending on your operating system, SAP workload, and network connectivity, you must provide or configure access to these additional systems:
 
-  * OS update server. You can use publicly available AIX SUMA or SUSE update repositories, or use your own AIX NIM or SUSE RMT servers.
-  * Time server. You can use a publicly available time server or use your own private time server.
-  * Jump host. Depending on your requirements and network connectivity, the jump host can be another {{site.data.keyword.powerSys_notm}}, a server in the {{site.data.keyword.cloud_notm}} classic environment, or a server in an on-premises network.
+  * OS update server. You can use publicly available AIX SUMA or SUSE update repositories, or use your own AIX NIM or SUSE RMT servers. For information about using AIX NIM, see [Using the NIM service handler on your new AIX virtual server instance](/docs/sap-netweaver-power?topic=sap-netweaver-power-nim_service_handler).
+  * Time server. You can use a publicly available time server or use your own private time server. For more information, see [Configuring the NTP client](/docs/sap-netweaver-power?topic=sap-netweaver-power-ntp_time_server).
+  * Jump host. Depending on your requirements and network connectivity, the jump host can be another {{site.data.keyword.powerSys_notm}}, a server in the {{site.data.keyword.cloud_notm}} classic environment, or a server in an on-premises network. For more information, see [Getting started with the jump server](/docs/sap-netweaver-power?topic=sap-netweaver-power-jump_server).
   * Other management systems such as Network File System (NFS), backup, proxy, firewall, and VPN servers can also be a {{site.data.keyword.powerSys_notm}} or in the {{site.data.keyword.cloud_notm}} classic environment, depending on network connectivity.
 
 ## Hybrid setups
