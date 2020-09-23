@@ -23,7 +23,7 @@ subcollection: sap-netweaver-power
 If you have an issue that requires support, open a support ticket.
 {: shortdesc}
 
-1. If the issue is related to {{site.data.keyword.IBM}} {{site.data.keyword.powerSysShort}} infrastructure, open a case through the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com){: external} > Support. All performance-related issues need to be checked by [{{site.data.keyword.cloud_notm}} Customer Support](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support) first to rule out any infrastructure-related issues before a case of the software stack above is opened.
+1. If the issue is related to {{site.data.keyword.IBM}} {{site.data.keyword.powerSysShort}} infrastructure, open a case through the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com){: external} > Support. All performance-related issues must be checked by [{{site.data.keyword.cloud_notm}} Customer Support](/docs/get-support?topic=get-support-getting-customer-support#getting-customer-support) first to rule out any infrastructure-related issues before a case on the software stack is opened.
 1. If the issue is operating system (OS) related, go the support portal of the distribution (AIX or Linux&reg;) to open a case.
 1.If the issue is related to SAP, open a case by going to [support.sap.com](https://support.sap.com/en/index.html){: external} and click **Report an Incident**. Run the following commands and attach the output to the case:
 

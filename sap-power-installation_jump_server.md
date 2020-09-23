@@ -95,14 +95,10 @@ When you run SAPINST, set variables to ensure that there are enough resources to
 1. When prompted to confirm, enter `y`.
 1. In your browser, go to the following URL:
 
-    https://<AIX Server IP Address>:4237/sapinst/docs/index.html
+    https://<AIX server IP address>:4237/sapinst/docs/index.html
 
-    For example:
-
-    https://ibmdemnw01.local.demo:4237/sapinst/docs/index.html
-
-1. When prompted, log in with the Software Provisioning Manager user or root user.
-2. Select your preferred product and proceed to install.
+2. When prompted, log in with the Software Provisioning Manager user or root user.
+3. Select your preferred product and proceed to install.
 
 ### Port forwarding
 {: #port_forwarding}
@@ -120,7 +116,7 @@ Here are some common issues that occur with Software Provisioning Manager:
 
     [SAP Note 1875902 - R3load -testconnect fails during using SWPM in step testDatabaseConnection](https://launchpad.support.sap.com/#/notes/1875902)
 
-    [SAP Note 2805859 - A1EEGEN 000 (DBS) DbSlErrorMsg rc = 28 'no connection info in DBCON found'](https://launchpad.support.sap.com/#/notes/2805859)
+    [SAP Note 2805859 - A1EEGEN 000 (DBS) DbSlErrorMsg rc = 28 "no connection info in DBCON found"](https://launchpad.support.sap.com/#/notes/2805859)
 
 
 
