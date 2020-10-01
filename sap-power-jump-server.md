@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-08-12"
+lastupdated: "2020-09-30"
 
 keywords: SAP NetWeaver, {{site.data.keyword.cloud_notm}}, network connectivity, jump server
 
@@ -22,10 +22,13 @@ subcollection: sap-netweaver-power
 # Getting started with the jump server  
 {: #jump_server}
 
-If you are using {{site.data.keyword.dl_full}} and a jump server in your configuration, you can use the jump server as a software installation repository. The jump server has private and public IP addresses for accessing [SAP Software Center](https://launchpad.support.sap.com/#/softwarecenter){: external} or third-party vendor websites to download fixes or updates that can be stored on the jump server. 
+If you are using {{site.data.keyword.dl_full}}, you access your {{site.data.keyword.IBM}} {{site.data.keyword.powerSysShort}} instances from Linux&reg; or Windows servers that are located in {{site.data.keyword.cloud}} or on-premises networks. These systems are known as access system jump servers.
 {: shortdesc}
 
-If you are using the Windows platform, you can install useful tools like WinSCP to transfer the software from the jump server to your AIX or Linux&reg; {{site.data.keyword.powerSysShort}}. The following table lists tools for jump servers on Windows:
+You can also use these jump servers as a software installation repository. The jump server has private and public IP addresses for accessing [SAP Software Center](https://launchpad.support.sap.com/#/softwarecenter){: external} or third-party vendor websites to download fixes or updates that can be stored on the jump server. 
+
+
+If you are using the Windows platform, you can install useful tools like WinSCP to transfer the software from the jump server to your AIX or Linux {{site.data.keyword.powerSysShort}}. The following table lists tools for jump servers on Windows:
 
 | Tool          | Purpose                               | Link                           |
 |---------------|---------------------------------------|--------------------------------|
